@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="81px" viewBox="0 0 98 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icon/Services/ico-Infraestructura</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Services/ico-Infraestructura" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(61.000000, 11.000000)">
+            <rect id="Rectangle" fill="#353B50" x="0.449999988" y="8.61124778" width="35.999999" height="48.5999987" rx="2.69999993"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="2.24999994" y="28.4112473" width="32.3999991" height="2.69999993"></rect>
+            <rect id="Rectangle-Copy" fill="#FFFFFF" x="2.24999994" y="35.6112471" width="32.3999991" height="2.69999993"></rect>
+            <circle id="Oval" fill="#FFFFFF" cx="22.4999994" cy="33.3612471" r="1.34999996"></circle>
+            <circle id="Oval-Copy" fill="#FFFFFF" cx="26.9999993" cy="33.3612471" r="1.34999996"></circle>
+            <path d="" id="Path-8" stroke="#979797" stroke-width="0.899999976"></path>
+            <path d="M5.26166706,6.36736084 C3.36271133,6.36736084 1.96755073,6.73359863 1.07618528,7.46607421 L0.944799975,7.581 L7.39519,-1.59872111e-15 L29.7709463,-1.59872111e-15 L35.9758,7.582 L35.8478089,7.46607421 C34.9906003,6.73359863 33.6489018,6.36736084 31.8227134,6.36736084 Z" id="Combined-Shape" fill="#353B50"></path>
+        </g>
+        <g id="Group-2-Copy" transform="translate(0.000000, 11.000000)">
+            <rect id="Rectangle" fill="#353B50" x="0.449999988" y="8.61124778" width="35.999999" height="48.5999987" rx="2.69999993"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="2.24999994" y="28.4112473" width="32.3999991" height="2.69999993"></rect>
+            <rect id="Rectangle-Copy" fill="#FFFFFF" x="2.24999994" y="35.6112471" width="32.3999991" height="2.69999993"></rect>
+            <circle id="Oval" fill="#FFFFFF" cx="22.4999994" cy="33.3612471" r="1.34999996"></circle>
+            <circle id="Oval-Copy" fill="#FFFFFF" cx="26.9999993" cy="33.3612471" r="1.34999996"></circle>
+            <path d="" id="Path-8" stroke="#979797" stroke-width="0.899999976"></path>
+            <path d="M5.26166706,6.36736084 C3.36271133,6.36736084 1.96755073,6.73359863 1.07618528,7.46607421 L0.944799975,7.581 L7.39519,-1.59872111e-15 L29.7709463,-1.59872111e-15 L35.9758,7.582 L35.8478089,7.46607421 C34.9906003,6.73359863 33.6489018,6.36736084 31.8227134,6.36736084 Z" id="Combined-Shape" fill="#353B50"></path>
+        </g>
+        <g id="Group" transform="translate(29.000000, 14.000000)">
+            <path d="M0.5,12.2212731 C2.41496602,12.2212731 15.7482993,12.2212731 40.5,12.2212731 C40.5,9.69442436 39.073744,7.02583333 36.2212321,4.2155 C33.073744,1.71194433 23.2187966,1.04245209 6.6563898,2.20702329 C2.55212993,6.3563411 0.5,9.69442436 0.5,12.2212731 Z" id="Path-10" fill="#FFFFFF"></path>
+            <rect id="Rectangle" stroke="#353B50" stroke-width="2" fill="#FFFFFF" x="1.5" y="10.5680533" width="38" height="52" rx="3"></rect>
+            <rect id="Rectangle" fill="#353B50" x="2.5" y="31.5680533" width="36" height="3"></rect>
+            <rect id="Rectangle-Copy" fill="#353B50" x="2.5" y="39.5680533" width="36" height="3"></rect>
+            <circle id="Oval" fill="#353B50" cx="25" cy="37.0680533" r="1.5"></circle>
+            <circle id="Oval-Copy" fill="#353B50" cx="30" cy="37.0680533" r="1.5"></circle>
+            <path d="" id="Path-8" stroke="#979797"></path>
+            <path d="M5.84629689,7.07484557 C3.71192529,7.07484557 2.15035877,7.49125067 1.16159732,8.32406086 L1.046,8.428 L8.216878,-1.77635684e-15 L33.0788301,-1.77635684e-15 L39.978,8.431 L39.8637549,8.32406086 C38.9128824,7.49125067 37.4111546,7.07484557 35.3585714,7.07484557 Z" id="Combined-Shape" fill="#353B50"></path>
+        </g>
+    </g>
+</svg>
