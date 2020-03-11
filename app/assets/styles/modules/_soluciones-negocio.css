@@ -1,0 +1,60 @@
+.soluciones-negocio {
+    background-color: $azulClaro;
+
+    &__tab {
+        margin: 2em 0;
+        background-image: url("./assets/images/ico-comillas.svg");
+        background-position: 100% 50%;
+        background-repeat: no-repeat;
+        background-size: 120px;
+
+        @mixin atSmall {
+            background-position: bottom right;
+            background-size: 60px;
+        }
+    }
+    
+    &__vineta {
+        text-align: center;
+        padding: .625em .312em 0 !important;
+        background-color: #fff;
+        box-shadow: 0px 4px 13px -3px rgba(48,49,54,.3);
+    }
+
+    &__vineta img {
+        width: 40%;
+
+        @mixin atSmall {
+            width: 50%;
+        }
+    }
+
+    &__titulo-vineta {
+        font-size: 1.2em;
+        font-weight: 500;
+
+        @mixin atSmall {
+            font-size: .8em;
+        }
+    }
+
+    &__text {
+        font-size: 1.6em;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 1.4;
+        padding: .85em;
+
+        @mixin atSmall {
+            font-size: 1em;
+            padding: .35em 1.2em 0 .85em;
+        }
+    }
+
+    &__link {
+        text-align: right;
+        text-decoration: underline;
+        font-style: normal;
+        display: block;
+    }
+}

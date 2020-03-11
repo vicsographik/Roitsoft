@@ -1,0 +1,113 @@
+.header-Roisoft {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    transition: border-bottom .8s ease-out;
+
+    &--esta-abierto {
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(75,206,241,0.2) 20%, rgba(75,206,241,0.7) 60%, rgba(0,0,0,1) 90%);
+        border-bottom: 1px solid $azulClaro;
+        @mixin atMedium {
+            background: transparent;
+            border-bottom: none;
+        }
+    }
+
+    &__btn-container {
+        @mixin atMedium {
+            float: right;
+        }
+    }
+
+    &__icono-menu {
+        width: 20px;
+        height: 19px;
+        position: absolute;
+        z-index: 10;
+        top: 10px;
+        right: 10px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: #ffffff;
+            transform-origin: 0 0;
+            transition: transform .3s ease-out;
+        }
+
+        &__middle {
+            position: absolute;
+            top: 8px;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: #ffffff;
+            transition: all .3s ease-out;
+            transform-origin: 0 50%;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 20px;
+            height: 3px;
+            background-color: #ffffff;
+            transform-origin: 0 100%;
+            transition: transform .3s ease-out;
+        }
+
+        @mixin atMedium {
+            display: none;
+        }
+    }
+
+    &__icono-menu--cerrar-x {
+        &::before {
+            transform: rotate(45deg) scaleX(1.25);
+        }
+
+        .header-Roisoft__icono-menu__middle {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+
+        &::after {
+            transform: rotate(-45deg) scaleX(1.25) translateY(1px) ;
+        } 
+    }
+
+    &__contenido-menu {
+
+        @mixin atSmall {
+            opacity: 0;
+            transform: scale(1.2);
+            transition: all .3s ease-out;
+            position: relative;
+            z-index: -10;
+            text-align: center;
+        }
+
+        @mixin atMedium {
+            background: rgb(0,0,0);
+            background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(75,206,241,0.2) 21%, rgba(75,206,241,0.7) 70%);
+            opacity: 1;
+            z-index: 1;
+            transform: scale(1);
+            @mixin clearfix
+        }
+
+        &--es-visible {
+            opacity: 1;
+            z-index: 1;
+            transform: scale(1);
+        }
+    }
+
+}

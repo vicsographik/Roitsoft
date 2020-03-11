@@ -1,0 +1,17 @@
+.btn {
+  background-color: $azulResalte;
+  color: #FFF;
+  text-shadow: 1px 1px 1px $azulMarino;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+  display: inline-block;
+
+  &--large {
+    padding: 1.1rem 1.9rem;
+
+    @mixin atSmall {
+      font-size: 1.25rem;
+    }
+  }
+
+}

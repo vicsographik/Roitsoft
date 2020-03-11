@@ -8,22 +8,34 @@
   <meta name="description" content="Desarrollo de Sistemas para nuevos negocios y para grandes empresas">
 </head>
 <body>
-  <header>
-      <nav>
-          <ul>
-              <li>Quiénes Somos</li>
-              <li>Nuestros Servicios</li>
-              <li>Nuestra Experiencia</li>
-              <li>Contacto</li>
-          </ul>
-      </nav>
-      <div class="logo">
-          <img alt="Logo Roitsoft" src="logo_Roitsoft.png">
+  <header class="header-Roisoft">
+      <div class="wrapper wrapper__extra">
+          <div class="logo">
+              <img alt="Logo Roitsoft" src="assets/images/logo-ROISOFT.png">
+            </div>
+
+            <div class="header-Roisoft__icono-menu">
+                <div class="header-Roisoft__icono-menu__middle"></div>
+            </div>
+            
+            <div class="header-Roisoft__contenido-menu">
+                <div class="header-Roisoft__btn-container">
+                    <a href="#" class="btn">Contacto</a>
+                </div>
+                <nav class="nav-primaria nav-primaria--flota-derecha">
+                    <ul>
+                        <li><a href="#">Quiénes Somos</a></li>
+                        <li><a href="#">Nuestros Servicios</a></li>
+                        <li><a href="#">Nuestra Experiencia</a></li>
+                    </ul>
+                </nav>
+            </div>
       </div>
-      <div class="imagen-portada">
-        <picture>
-            <source srcset="assets/images/portada--large.jpg" media="(min-width: 1380px)">
-            <source srcset="assets/images/portada--medium.jpg" media="(min-width: 990px)">
+  </header>
+  <div class="imagen-portada">
+      <picture>
+          <source srcset="assets/images/portada--large.jpg" media="(min-width: 1380px)">
+            <source srcset="assets/images/portada--medium.jpg" media="(min-width: 640px)">
             <source srcset="assets/images/portada--small.jpg" media="(min-width: 640px)">
             <img class="imagen-portada__image" src="assets/images/portada--smaller.jpg" alt="">
         </picture>
@@ -36,8 +48,7 @@
                 </div>
             </div>
         </div>
-      </div>
-  </header>
+    </div>
   <article class="seccion">
       <div class="wrapper">
         <h2 class="titulo-seccion">Quiénes somos</h2>
@@ -56,13 +67,21 @@
         <blockquote>El profesionalismo, calidad, honradez, honestidad y seriedad son los motores que impulsan la materialización de nuestra misión y visión.</blockquote>
      </div>
   </article>
-  <article class="seccion">
+  <article class="seccion soluciones-negocio">
       <div class="wrapper">
         <h2 class="titulo-seccion">Nuestras soluciones de negocio</h2>
-        <img alt="" src="assets/images/ico-TI.svg">
-        <blockquote><em>Tecnologías de la Información</em> Ofrecemos soluciones tecnológicas bajo estándares de calidad.</blockquote>
+        <div class="row soluciones-negocio__tab">
+            <div class="row__medium-4 row__small-5 soluciones-negocio__vineta">
+                <img alt="" src="assets/images/ico-TI.svg">
+                <h3 class="soluciones-negocio__titulo-vineta">Servicios de Tecnología de Información</h3>
+            </div>
+            <div class="row__medium-8 row__small-7">
+                <blockquote class="soluciones-negocio__text">Ofrecemos soluciones tecnológicas bajo estándares de calidad.
+                    <br><a class="soluciones-negocio__link">Ver más</a>
+                </blockquote>
+            </div>
+        </div>
         <div>
-            <h3>Servicios de Tecnología de Información</h3>
             <p>Ofrecemos servicios profesionales de Tecnologías de la Información (TI) para la mejora de procesos al interior de tu organización, así como para la actualización, administración y operación de plataformas tecnológicas.</p>
             <p>Todas nuestras soluciones están diseñadas para optimizar tus procesos y cumplir con tus objetivos de negocio. Nuestro mayor compromiso es asegurarnos que las TI contribuyan al éxito de tu organización.</p>
             <em>¿Cómo lo hacemos?</em>
@@ -85,10 +104,18 @@
             </ul>
             <blockquote>En Roisoft, transformamos las ideas y las necesidades de cada uno de nuestros clientes.</blockquote>
         </div>
-        <img alt="" src="assets/images/ico-Infraestructura.svg">
-        <blockquote><em>Infraestructura tecnológica</em> Brindamos servicios en la administración de bases de datos y aplicaciones.</blockquote>
+        <div class="row soluciones-negocio__tab">
+            <div class="row__medium-4 row__small-5 soluciones-negocio__vineta">
+                <img alt="" src="assets/images/ico-Infraestructura.svg">
+                <h3 class="soluciones-negocio__titulo-vineta">Servicios de Infraestructura Tecnológica</h3>
+            </div>
+            <div class="row__medium-8 row__small-7">
+                <blockquote class="soluciones-negocio__text">Brindamos servicios en la administración de bases de datos y aplicaciones.
+                    <br><a class="soluciones-negocio__link">Ver más</a>
+                </blockquote>
+            </div>
+        </div>
         <div>
-            <h3>Servicios de Infraestructura Tecnológica</h3>
             <p>Ofrecemos a las organizaciones soluciones en infraestructura tecnológica con garantías de máxima eficiencia y seguridad. Nuestros servicios comprenden la administración de bases de datos, aplicaciones y servidores, garantizando disponibilidad, confiabilidad y calidad.</p>
             <p>Nos aseguramos de que tu infraestructura esté en óptimas condiciones para dar respuesta inmediata a las demandas y requerimientos del mercado.</p>
             <em>¿Cómo lo hacemos?</em>
@@ -110,10 +137,19 @@
             </ul>
             <blockquote>Todas nuestras soluciones están pensadas para atender las necesidades de cada organización, bajo los estándares más altos de calidad.</blockquote>
         </div>
-        <img alt="" src="assets/images/ico-Negocios.svg">
-        <blockquote><em>Tecnología de Negocios</em> Implementamos soluciones empresariales para incrementar tu productividad.</blockquote>
+        <div class="row soluciones-negocio__tab">
+            <div class="row__medium-4 row__small-5 soluciones-negocio__vineta">
+                <img alt="" src="assets/images/ico-Negocios.svg">
+                <h3 class="soluciones-negocio__titulo-vineta">Servicios de Tecnología de Negocios</h3>
+            </div>
+            <div class="row__medium-8 row__small-7">
+                <blockquote class="soluciones-negocio__text">Implementamos soluciones empresariales para incrementar tu productividad.
+                    <br><a class="soluciones-negocio__link">Ver más</a>
+                </blockquote>
+            </div>
+        </div>
         <div>
-            <h3>Servicios de Tecnología de Negocios</h3>
+            
             <p>Fortalecemos la rentabilidad de las organizaciones mediante la implementación y personalización de herramientas informáticas especializadas para la mejora de sus procesos internos, tanto administrativos como operativos.</p>
             <p>A través de nuestros servicios de tecnología de negocios, apoyamos a nuestros clientes a mejorar su productividad mediante la optimización de sus recursos tecnológicos y humanos. De esta manera, contribuimos en la definición de cómo invertir e integrar componentes de Tecnologías de la Información (TI), de manera que apoyen al cumplimiento de sus objetivos estratégicos.</p>
             <em>¿Cómo lo hacemos?</em>
@@ -145,6 +181,12 @@
             <p>Contamos con formas de trabajo que agilizan la gestión de los proyectos para atender las necesidades y requerimientos de las organizaciones de manera óptima e inmediata, siempre ofreciendo un plus a la satisfacción, a la lealtad y a la confianza que cada uno de nuestros clientes deposita en nosotros.</p>
         </div>
     </article>
+    <footer class="footer seccion row">
+        <div class="wrapper">
+            <p>© 2016 ROITSOFT Soluciones en Desarrollo de Software<br>
+                Todos los derechos reservados</p>
+        </div>
+    </footer>
   <script src="bundled.js"></script>
   
   <!-- Leave this commented out HTML here until you need it for an upcoming "modal" lesson

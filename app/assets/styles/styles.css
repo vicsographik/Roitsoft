@@ -1,8 +1,15 @@
 @import "normalize.css";
 @import "base/_global";
-@import "base/_variables.css";
+@import "base/_variables";
 @import "base/_mixins";
+@import "modules/_btn.css";
 @import "modules/_imagen-portada";
 @import "modules/_wrapper";
 @import "modules/_seccion";
-@import "modules/_titulo-seccion.css";
+@import "modules/_titulo-seccion";
+@import "modules/_row";
+@import "modules/_soluciones-negocio";
+@import "modules/_footer";
+@import "modules/_header-Roisoft";
+@import "modules/_nav-primaria";
+@import "modules/_logo";
