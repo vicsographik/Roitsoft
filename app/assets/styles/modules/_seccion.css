@@ -1,5 +1,8 @@
 .seccion {
     padding: 4.5em 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: 300;
 
     &--azulMarino {
         background-color: $azulMarino;
