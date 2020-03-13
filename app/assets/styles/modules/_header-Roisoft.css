@@ -4,6 +4,26 @@
     z-index: 2;
     transition: border-bottom .8s ease-out;
 
+    @mixin atMedium {
+        position: fixed;
+
+        &--dark {
+            background-color: rgba($azulResalte, 1);
+            box-shadow: -1px 6px 10px -1px rgba(3,86,158,0.39);
+            padding-bottom: 20px;
+
+            & .logo {
+                transform: scale(.65);
+                padding: 0;
+                top: -15px;
+            }
+
+            & .btn {
+                background-color: $azulMarino;
+            }
+        }
+    }
+
     &--esta-abierto {
         background: rgb(0,0,0);
         background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(75,206,241,0.2) 20%, rgba(75,206,241,0.7) 60%, rgba(0,0,0,1) 90%);
@@ -100,6 +120,7 @@
             opacity: 1;
             z-index: 1;
             transform: scale(1);
+            margin-top: 15px;
             @mixin clearfix
         }
 

@@ -34,6 +34,9 @@
         color: #fff;
         text-decoration: none;
         text-shadow: 2px 2px 2px #07244D;
+        &.es-link-actual {
+            color: #fabb69;
+        }
         @mixin atSmall {
             display: inline-block;
             padding: 5px;
