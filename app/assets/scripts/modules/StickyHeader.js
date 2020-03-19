@@ -4,6 +4,7 @@ import debounce from 'lodash/debounce'
 class StickyHeader {
     constructor() {
         this.siteHeader = document.querySelector(".header-Roisoft")
+        this.logoRoitsoft = document.querySelector(".logo")
         this.secciones = document.querySelectorAll(".seccion")
         this.browserHeight = window.innerHeight
         this.previousScrollY = window.scrollY
@@ -23,6 +24,12 @@ class StickyHeader {
             this.siteHeader.classList.add("header-Roisoft--dark")
         } else {
             this.siteHeader.classList.remove("header-Roisoft--dark")
+        }
+
+        if (window.scrollY > 60) {
+            this.logoRoitsoft.classList.add("logo--gone")
+        } else {
+            this.logoRoitsoft.classList.remove("logo--gone")
         }
 
         this.secciones.forEach(el => this.calcSeccion(el))

@@ -1,5 +1,6 @@
 .btn {
   background-color: $azulResalte;
+  border:1px solid rgba($azulMarino, .5);
   color: #FFF;
   text-shadow: 1px 1px 1px $azulMarino;
   text-decoration: none;

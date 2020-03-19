@@ -1,8 +1,9 @@
 .header-Roisoft {
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 2;
-    transition: border-bottom .8s ease-out;
+    background-color: transparent;
+    transition: all .8s ease-out;
 
     @mixin atMedium {
         position: fixed;
@@ -16,6 +17,7 @@
                 transform: scale(.65);
                 padding: 0;
                 top: -15px;
+                transition: transform .8s ease-out;
             }
 
             & .btn {
@@ -43,10 +45,10 @@
     &__icono-menu {
         width: 20px;
         height: 19px;
-        position: absolute;
+        position: fixed;
         z-index: 10;
         top: 10px;
-        right: 10px;
+        right: 11px;
 
         &::before {
             content: "";
@@ -69,6 +71,17 @@
             background-color: #ffffff;
             transition: all .3s ease-out;
             transform-origin: 0 50%;
+        }
+
+        &__fondo {
+            width: 30px;
+            height: 30px;
+            position: fixed;
+            z-index: -1;
+            top: 5px;
+            right: 7px;
+            border-radius: 5px;
+            background: rgba($azulMarino, .7);
         }
 
         &::after {
