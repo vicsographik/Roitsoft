@@ -1,9 +1,9 @@
 .seccion {
-    padding: 4.5em 0;
     font-size: 1.2em;
     line-height: 1.5;
     border-bottom: 1px solid $azulResalte;
     font-weight: 300;
+    background-size: cover;
 
     &--1 {
         width: 100%;
