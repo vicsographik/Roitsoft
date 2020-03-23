@@ -3,6 +3,10 @@
     margin: 0 auto 20px;
     background: rgba(7,36,77,.7);
 
+    & ul {
+        list-style-image: url('./assets/images/bullet2.svg');
+    }
+
     @mixin atSmall {
         padding: 7px;
         margin: 0 15px 20px;
