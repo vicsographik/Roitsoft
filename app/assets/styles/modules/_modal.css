@@ -44,6 +44,10 @@
         font-weight: 300;
         line-height: 1.65;
 
+        @mixin atMedium {
+            font-size: 1.3em;
+        }
+
         &-aleft {
             text-align: left;
             margin: 0 auto 2em;
