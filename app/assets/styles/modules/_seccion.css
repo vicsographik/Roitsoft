@@ -41,6 +41,7 @@
     &--2::after {
         content: "";
         background: url('./assets/images/fondo-sec2.svg') bottom center;
+        background-size: cover;
         background-size: 50%;
         background-color: $azulMarino;
         top: 0;
