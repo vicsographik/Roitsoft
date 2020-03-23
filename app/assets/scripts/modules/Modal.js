@@ -40,12 +40,18 @@ class Modal {
                     <h2 class="modal__titulo-seccion titulo-seccion">Contáctenos</h2>
                 </div>
                 <div class="wrapper wrapper__corto">
-                    <p class="modal__description">Teléfonos: <br>
-                        <span>+52 1 55 3699 0004</span><br>
-                        <span>+52 1 55 3699 2574</span>
+                    <p class="modal__description">Teléfono: <br>
+                        <span>+52 (55) 1692-7526</span>
                     </p>
                     <p class="modal__description">Correo electrónico: <br>
-                        <a href="mailto:elcorreoquequieres@correo.com">ismael@roitsoft.com</a></p>
+                        <a href="mailto:itecuapacho@roitsoft.com.mx">itecuapacho@roitsoft.com.mx</a><br>
+                        <a href="mailto:ittexis@gmail.com">ittexis@gmail.com</a>
+                    </p>
+                    <p class="modal__description modal__description-aleft">Nos ubicamos en: <br>
+                    Rodríguez Saro No. 100, Int. 102, Colonia Actípan,<br>
+                    Delegación Benito Juárez,<br>
+                    Código Postal 03230, Ciudad de México.
+                    </p>
                 </div>
                 <div class="redes-sociales">
                     <a href="#" class="redes-sociales__icon"><img src="assets/images/icons/facebook.svg" alt="Facebook"></a>
