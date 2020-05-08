@@ -3,8 +3,10 @@
     font-size: 1.875rem;
     line-height: 1em;
     margin-bottom: 2.875rem;
+    margin-top: 6.5rem;
 
     @mixin atSmall {
         font-size: 1.8rem;
+        margin-top: 5rem;
     }
 }
